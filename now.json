@@ -1,6 +1,8 @@
 {
+  "name": "C-Power home page",
   "version": 2,
-  "builds": [
-    { "src": "index.html", "use": "@now/static" }
-  ]
+  "builds": [{
+    "src": "*",
+    "use": "@now/static"
+  }]
 }
